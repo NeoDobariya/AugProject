@@ -1,0 +1,5 @@
+Setp 1: Create Environment for new project with the hep of Anaconda
+	-> Open Anaconda -> Goto Folder location  
+	Code : 
+	
+		
