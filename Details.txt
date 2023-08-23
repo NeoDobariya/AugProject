@@ -1,5 +1,31 @@
 Setp 1: Create Environment for new project with the hep of Anaconda
 	-> Open Anaconda -> Goto Folder location  
-	Code : 
+		Code : conda create -p venv
+				or
+		Code : conda create -p venv python==3.10
+	
+	-> Can add any library to project at the beginning. But it will be batter if ou do it with Requirement.txt
+		Code : pip install pandas, numpy, sklearn etc.
+	
+	-> Open VSCode
+		Code : code .
+		
+Step 3: Create GitHub Repo
+	->  Go to Gitgub and create Github repository
+	->	goto to VSCode and open new terminal change it to CMD
+		
+		Code:
+			- git init
+			- git commit -m "first commit"
+			- git branch -M main
+			- git remote add origin https://github.com/NeoDobariya/AugProject.git
+			- git push -u origin master
+		
+	-> Do not push venv to github.
+
+
+Step 4:	Create "README.md" file. Here you will add all details of your project. Steps, Code-details, Analysis, etc.
+
+
 	
 		
