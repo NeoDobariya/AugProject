@@ -16,10 +16,11 @@ Step 3: Create GitHub Repo
 		
 		Code:
 			- git init
+			- git add .
 			- git commit -m "first commit"
 			- git branch -M main
 			- git remote add origin https://github.com/NeoDobariya/AugProject.git
-			- git push -u origin master
+			- git push -u origin main
 		
 	-> Do not push venv to github.
 
