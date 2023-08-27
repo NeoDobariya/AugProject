@@ -22,9 +22,9 @@ project_files=[
     f'src/{project_name}/pipelines/training_pipeline.py',
     f'src/{project_name}/pipelines/prediction_pipeline.py',
 
-    f'src/{project_name}/utils.py'
-    "requirements.txt"
-    "setup.py"
+    f'src/{project_name}/utils.py',
+    "requirements.txt",
+    "setup.py",
 
 ]
 
