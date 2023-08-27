@@ -1,4 +1,4 @@
-Setp 1: Create Environment for new project with the hep of Anaconda
+Step 1: Create Environment for new project with the hep of Anaconda
 	-> Open Anaconda -> Goto Folder location  
 		Code : conda create -p venv
 				or
@@ -10,8 +10,8 @@ Setp 1: Create Environment for new project with the hep of Anaconda
 	-> Open VSCode
 		Code : code .
 		
-Step 3: Create GitHub Repo
-	->  Go to Gitgub and create Github repository
+Step 2: Create GitHub Repo
+	->  Go to GitHub and create Github repository
 	->	goto to VSCode and open new terminal change it to CMD
 		
 		Code:
@@ -22,10 +22,18 @@ Step 3: Create GitHub Repo
 			- git remote add origin https://github.com/NeoDobariya/AugProject.git
 			- git push -u origin main
 		
-	-> Do not push venv to github.
+	-> Do not push "venv" to github.
 
 
-Step 4:	Create "README.md" file. Here you will add all details of your project. Steps, Code-details, Analysis, etc.
+Step 3:	Create "README.md" file. Here you will add all details of your project. Steps, Code-details, Analysis, etc.
+
+Step 4: Create the "setup.py" file to create the package of your project.
+
+STep 5: Create "template.py" which will give the structure to your project.
+		With the help of "template.py" create the pipelines so that project can be automated.
+		1) Training pipelines
+		2) Prediction pipeline
+
 
 
 	

@@ -3,16 +3,16 @@ from typing import List
 
 def get_requirements(file_path:str) -> list[str]:
     '''
-    Function will returen the list of required packages needed to be install
+    Function will return the list of required packages needed to be install
 
     '''
-    requiments=[]
+    requirements=[]
     with open(file_path) as file_obj:
-        requiments=file_obj.readlines()
-        for req in requiments:
-            requiments=req.replace('\n',"")
-            requiments=req.replace('-e .',"")
-    return requiments
+        requirements=file_obj.readlines()
+        for req in requirements:
+            requirements=req.replace('\n',"")
+            requirements=req.replace('-e .',"")
+    return requirements
 
 
 setup(name='First_Project', 
